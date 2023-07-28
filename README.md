@@ -13,7 +13,7 @@ Click Load unpacked to select the previously unpacked folder, or drag it to the 
 
 So, you have installed the Auto Download Files extension from the Google Drive URL. You can now click the google drive link and the browser will automatically download the file to your device.
 
-![image](https://github.com/VenusakaVXT/google-drive-downloader/assets/125566811/eccc503c-522f-4497-8eff-15576b66b1e4)
+https://github.com/VenusakaVXT/google-drive-downloader/assets/125566811/05ca2cd4-2f80-4dfd-853e-e6d37a68e10e
 
 
 
