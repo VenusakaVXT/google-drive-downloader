@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Google Drive Downloader",
+    "version": "1.0",
+    "permissions": [
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+            "<all_urls>"
+            ],
+            "js": ["content.js"]
+        }
+    ]
+}
