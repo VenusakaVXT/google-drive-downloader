@@ -15,6 +15,18 @@ So, you have installed the Auto Download Files extension from the Google Drive U
 
 https://github.com/VenusakaVXT/google-drive-downloader/assets/125566811/05ca2cd4-2f80-4dfd-853e-e6d37a68e10e
 
+# Explain details
+```javascript url.split(/^(([^:\/?#]+):)?(\/\/([^\/?#]*))?([^?#]*)(\?([^#]*))?(#(.*))?/) ```
+
+This is a complex regular expression to parse a URL into elements like protocol, domain, path, query parameters, and fragment.
+
+1. Protocol: get "http://" or "https://", if available.
+2. Domain name: get the domain name part, for example "www.example.com".
+3. Path: get the path after the domain name, for example "/path/to/file".
+4. Query parameters: get the query parameter string after the "?".
+5. Fragments: get the fragment string after the "#" sign.
+
+The result of the split() method will be an array containing the elements split from the URL according to the above regular expression.
 
 
 
