@@ -17,7 +17,8 @@ https://github.com/VenusakaVXT/google-drive-downloader/assets/125566811/05ca2cd4
 
 # Explain details
 ```javascript 
-url.split(/^(([^:\/?#]+):)?(\/\/([^\/?#]*))?([^?#]*)(\?([^#]*))?(#(.*))?/) ```
+url.split(/^(([^:\/?#]+):)?(\/\/([^\/?#]*))?([^?#]*)(\?([^#]*))?(#(.*))?/)
+```
 
 This is a complex regular expression to parse a URL into elements like protocol, domain, path, query parameters, and fragment.
 
