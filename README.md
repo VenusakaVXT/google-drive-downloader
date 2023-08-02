@@ -22,11 +22,11 @@ url.split(/^(([^:\/?#]+):)?(\/\/([^\/?#]*))?([^?#]*)(\?([^#]*))?(#(.*))?/)
 
 This is a complex regular expression to parse a URL into elements like protocol, domain, path, query parameters, and fragment.
 
-1. `([^:\/?#]+)`: get protocol "http://" or protocol "https://", if available.
-2. `(\/\/([^\/?#]*))`: get the domain name part, for example "www.example.com".
-3. `([^?#]*)`: get the path after the domain name, for example "/path/to/file".
-4. `(\?([^#]*))?`: get the query parameter string after the "?".
-5. `(#(.*))?`: get the fragment string after the "#" sign.
+1. ([^:\/?#]+): get protocol "http://" or protocol "https://", if available.
+2. (\/\/([^\/?#]*)): get the domain name part, for example "www.example.com".
+3. ([^?#]*): get the path after the domain name, for example "/path/to/file".
+4. (\?([^#]*))?: get the query parameter string after the "?".
+5. (#(.*))?: get the fragment string after the "#" sign.
 
 The result of the split() method will be an array containing the elements split from the URL according to the above regular expression.
 
